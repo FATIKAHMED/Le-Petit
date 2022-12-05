@@ -1,0 +1,25 @@
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blackcard{
+    background-color: #282828;
+    width: 100%;
+    padding-left: 4.125rem;
+    padding-right: 4.125rem;
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+.blackcard-container{
+    max-width: 40.438rem;
+    height: 22.313;
+    position: absolute;
+    top: -15.625rem;
+    left: 12.5rem;
+}
+.positioning{
+    width: 80px;
+    height: 80px;
+    transform: translate(-40%, 45%);
+}

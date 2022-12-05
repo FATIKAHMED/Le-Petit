@@ -1,0 +1,44 @@
+.button_container{
+    padding-left: 2.5rem;
+    padding-top: 1.5625rem;
+    display: flex;
+    gap: 28.54%;
+    align-items: center;
+}
+.css-f50ke6-MuiButtonBase-root-MuiButton-root{
+    background-color: #A78C61; 
+    text-transform: none; 
+    width: 8.25rem;
+    height: 2.1875rem;   
+    border-radius: 0.625rem;
+}
+.css-f50ke6-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: #A78C61;     
+}
+
+
+.honeybiscuits{
+    padding: 0.625rem;
+    transform: translateY(8.875rem);
+}
+.vecImage1{
+    position: absolute;
+    z-index: 2;
+    bottom: 95px;
+    left: -50px;
+    /* height: calc(inherit-300); */
+}
+.vecImage2{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 20vw;
+
+}
+.left{
+    position: absolute;
+    max-width: 100%;
+    right: 0;
+    z-index: 3;
+    height: 55rem;
+    object-fit: contain;
+}

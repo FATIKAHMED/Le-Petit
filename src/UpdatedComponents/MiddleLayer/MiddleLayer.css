@@ -1,0 +1,57 @@
+.rectangle{
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+}
+.card1{
+    width: 56.438rem;
+    height: 37.625rem;
+    transform: translate(-47px, 35px);
+    /* z-index: -1; */
+}
+.learn_more{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+.rectangle_right{
+    width: 80px;
+    height: 80px;
+    /* transform: translate(-50%, 35%); */
+}
+.bullet_point{
+    width: 23px;
+    height: 20px;
+}
+.tableandsweet{
+    width: 249px;
+    height: 374px;
+}
+.vectorImg2{
+    position: absolute;
+    /* padding: 40px; */
+    padding-top: 75px;
+    width: 100vw;
+    left: 0;
+    z-index: -10;
+    transform: translateY(-20%);
+}
+.pattern{
+    background-image: url('./MiddleLayerAssets/Vector 2.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    height: 30rem;
+    max-width: 100%;
+    width: 100%;
+
+}
+.box{
+    position: absolute;
+    bottom: 20.313rem;
+    right: 11.25rem;
+    z-index: 1;
+}

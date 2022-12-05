@@ -1,0 +1,21 @@
+
+.vector-background{
+    position: absolute;
+    bottom: -11.25rem;
+    right: 5.625rem;
+}
+.table{
+    width: 249px;
+    height:374px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.curlyarrow{
+    width:38px;
+    height: 17px;
+}
+.about-me{
+    width: 461px;
+    height: 721px;
+}
