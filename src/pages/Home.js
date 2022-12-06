@@ -10,6 +10,7 @@ import Introduction from '../UpdatedComponents/Introduction/Introduction';
 import ContactMe from '../UpdatedComponents/ContactMe/ContactMe';
 import Footer from '../UpdatedComponents/Footer/Footer';
 import PictureLayer from '../UpdatedComponents/PictureLayer/PictureLayer';
+import ExtendedMiddleLayer from '../UpdatedComponents/ExtendedMiddleLayer/ExtendedMiddleLayer';
 
 
 
@@ -41,11 +42,16 @@ export default function Home() {
       <Navbar/>
      <Landing/> 
       <MiddleLayer/> 
+     </div>  
+     <ExtendedMiddleLayer/>
+     <div
+        style={{backgroundColor:"#FCF7F3",padding:'10px'}}
+        >
       <Introduction/>
       <PictureLayer/>
       <ContactMe/>
       <Footer/>
-     </div>  
+      </div>
       
     </>
   );

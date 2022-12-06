@@ -19,10 +19,12 @@ const Landing = () => {
 <Box sx={{position:"relative",maxWidth:"95rem",height:"60rem",marginBottom:"40px"}}>
       <img src={vecImg} alt='background vector' className='vecImage1' />
       <Grid container spacing={2} sx={{ backgroundColor: '#FCF7F3',position:"relative" }}>
-        <Grid item xs={6}>
+        <Grid item xs={6}
+        sx={{marginTop:"8.688rem !important"}}
+        >
           <Typography
             variant="p"
-            // fontFamily="Roboto"
+            fontFamily="Roboto"
             fontSize="1.331rem"
             fontStyle="normal"
             fontWeight="400"
@@ -35,7 +37,8 @@ const Landing = () => {
           <Typography
 
             variant="h1" component="h2"
-            position="relative"
+            position="absolute"
+            top="11.563rem"
             zIndex="55"
             fontFamily="Gabriela"
             fontSize="2.913rem"
@@ -56,7 +59,7 @@ const Landing = () => {
             lineHeight="1.px"
             color="#000000"
             paddingLeft="2.5rem"
-            paddingTop="0.625rem"
+            paddingTop="6rem"
           >
             Established in Raleigh NC
           </Typography>

@@ -68,7 +68,7 @@ const Footer = () => {
           </Grid>
         </Grid>
         <Grid item xs={4}>
-          <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'flex-end' }}>
+          <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'flex-end',gap:"10px" }}>
             <img src={facebook} alt="socialmedia" />
             <img src={instagram} alt="socialmedia" />
             <img src={linkedin} alt="socialmedia" />

@@ -6,7 +6,7 @@ const ContactMe = () => {
   return (
     <>
       <Grid container spacing={1} sx={{backgroundColor:"#FCF7F3"}}>
-        <Grid item xs={6} sx={{ backgroundColor: '#282828',paddingLeft:"30px",paddingRight:"30px",paddingTop:"30px",paddingBottom:"30px" }}>
+        <Grid item xs={6} sx={{ backgroundColor: '#282828',paddingTop:"91px !important",paddingBottom:"91px",paddingLeft:"78px !important",paddingRight:"78px" }}>
           <Typography fontSize="21px" fontWeight="400" lineHeight="25px" paddingBottom="10px" color="#A78C61" fontFamily="Roboto">
             [ For the Sweetest Moments in Life ]
           </Typography>
@@ -44,7 +44,7 @@ const ContactMe = () => {
             <img src={arrow} alt="learnMore" />
           </div>
         </Grid>
-        <Grid item xs={6} sx={{ backgroundColor: '#EEE9E2',padding:"30px" }}>
+        <Grid item xs={6} sx={{ backgroundColor: '#EEE9E2',paddingTop:"91px !important",paddingBottom:"91px",paddingLeft:"78px !important",paddingRight:"78px" }}>
           <Typography fontSize="21px" fontWeight="400" lineHeight="25px" paddingBottom="10px" color="#A78C61" fontFamily="Roboto">
             [ LEPETITAMOURDESSERTS@GMAIL.COM / NORTH CAROLINA ]
           </Typography>
